@@ -1,0 +1,33 @@
+{
+  "name": "thezenmonkey/silverstripe-elemental-gallery",
+  "description": "Gallery ELemental Block",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/thezenmonkey/elementalgallery/",
+  "keywords": ["silverstripe",
+    "silverstripe",
+    "element",
+    "elemental",
+    "content blocks"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {"name": "Richard Rudy","email": "rick@designplusawesome.com"}
+  ],
+  "support": {
+    "issues": "https://github.com/thezenmonkey/elementalgallery/issues"
+  },
+  "require": {
+    "silverstripe/cms": "^4",
+    "silverstripe/framework": "^4",
+    "dnadesign/silverstripe-elemental": "^4",
+    "bummzack/sortablefile": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+        "thezenmonkey\\silverstripe-elemental-gallery\\": "src/"
+    }
+  },
+  "extra": {
+    "installer-name": "Elemental Gallery"
+  }
+}
